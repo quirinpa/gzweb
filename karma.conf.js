@@ -18,6 +18,15 @@ module.exports = function(config) {
       }
     },
 
+    plugins: [
+      "karma-jasmine",
+      "karma-coverage",
+      "karma-html",
+      "karma-html-reporter",
+      "karma-firefox-launcher",
+      "karma-chrome-launcher"
+    ],
+
     // list of files / patterns to load in the browser
     files: [
       "gz3d/client/js/include/jquery-1.9.1.js",
