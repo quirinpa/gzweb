@@ -63,7 +63,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
 # Install node modules
-npm install
+pnpm install
 
 # Assemble javascript files
 $DIR/node_modules/.bin/grunt build
